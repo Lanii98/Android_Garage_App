@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraint_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="12dp">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card_view"
+        android:layout_width="200dp"
+        android:layout_height="326dp"
+        android:paddingRight="20dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:elevation="40dp"
+        android:paddingStart="50dp"
+        android:paddingBottom="90dp"
+        app:cardBackgroundColor="@android:color/system_accent3_800"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="212dp"
+            android:layout_height="324dp"
+            app:layout_constraintBottom_toTopOf="@+id/text_brand"
+            app:layout_constraintTop_toTopOf="@+id/text_brand">
+
+            <ImageView
+                android:id="@+id/itemListImage"
+                android:layout_width="match_parent"
+                android:layout_height="144dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.038"
+                app:srcCompat="@drawable/bike2"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <TextView
+                android:id="@+id/text_brand"
+                android:layout_width="208dp"
+                android:layout_height="59dp"
+                android:layout_marginBottom="104dp"
+                android:paddingLeft="15sp"
+                android:text="Brand"
+                android:textColor="@color/accent"
+                android:textSize="16dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/imageView"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <TextView
+                android:id="@+id/text_model"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15sp"
+                android:text="Model"
+                android:textColor="@color/accent"
+                android:textSize="16dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/text_brand"
+                app:layout_constraintVertical_bias="0.158"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <TextView
+                android:id="@+id/text_year"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15sp"
+                android:text="Year"
+                android:textColor="@color/accent"
+                android:textSize="16dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/text_model"
+                app:layout_constraintVertical_bias="0.148"
+                tools:layout_editor_absoluteX="-4dp" />
+
+            <TextView
+                android:id="@+id/text_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15sp"
+                android:text="Price"
+                android:textColor="@color/accent"
+                android:textSize="16dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/text_year"
+                app:layout_constraintVertical_bias="0.611"
+                tools:layout_editor_absoluteX="0dp" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

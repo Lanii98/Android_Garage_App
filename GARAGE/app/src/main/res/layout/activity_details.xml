@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blueBlack"
+    tools:context=".DetailsActivity">
+
+    <ImageView
+        android:id="@+id/imageDetailsView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="261dp"
+        android:contentDescription="@string/Description_ItemImage"
+        android:src="@drawable/car5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/detailsToolbar"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabYT"
+        android:layout_width="55dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginBottom="16dp"
+        android:clickable="true"
+        android:contentDescription="@string/Description_fabYT"
+        android:src="@drawable/clipyt"
+        app:backgroundTint="@android:color/holo_red_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.016"
+        app:layout_constraintStart_toEndOf="@+id/fabHome"
+        app:shapeAppearance="@style/MaterialAlertDialog.Material3" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabHome"
+        android:layout_width="55dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:clickable="true"
+        android:contentDescription="@string/Description_fabHome"
+        android:src="@drawable/baseline_home_24"
+        app:backgroundTint="@color/accent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/detailsToolbar"
+        app:layout_constraintVertical_bias="1.0"
+        app:shapeAppearance="@style/MaterialAlertDialog.Material3" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabDialer"
+        android:layout_width="55dp"
+        android:layout_height="65dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="16dp"
+        android:clickable="true"
+        android:contentDescription="@string/Description_fabDialer"
+        android:src="@drawable/baseline_phone_enabled_24"
+        app:backgroundTint="@android:color/holo_green_dark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/fabYT"
+        app:shapeAppearance="@style/MaterialAlertDialog.Material3" />
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/detailsToolbar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="13dp"
+        android:background="@color/material_dynamic_tertiary20"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toTopOf="@+id/imageDetailsView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="Placeholder Title"
+        app:titleTextColor="@android:color/holo_green_light" />
+
+    <TextView
+        android:id="@+id/txtDetailsYear"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:fontFamily="@font/lexend"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="@color/accent"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/txtDetailsPrice"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageDetailsView" />
+
+    <TextView
+        android:id="@+id/txtDetailsPrice"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="92dp"
+        android:fontFamily="@font/lexend"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="@color/accent"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

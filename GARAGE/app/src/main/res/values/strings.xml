@@ -1,0 +1,132 @@
+<resources>
+    <string name="app_name">GARAGE</string>
+    <string name="welcome_message">Welcome to the Garage App</string>
+    <string name="cars">Cars</string>
+    <string name="bikes">Bikes</string>
+    <string name="others">Others</string>
+    <string name="start">Start</string>
+    <string name="category_option">Please choose an option</string>
+
+    <string name="Description_fabYT">Open reviews for current product in Youtube</string>
+    <string name="Description_fabHome">Go back to the App Home Screen</string>
+    <string name="Description_fabDialer">Call the garage phone number</string>
+    <string name="Description_ItemImage">Larger photo of current product</string>
+    <string name="menu_fav">Add Item to Favourites</string>
+
+    <string-array name="car_brand_array">
+        <item>Honda</item>
+        <item>Honda</item>
+        <item>Honda</item>
+        <item>Honda</item>
+        <item>Seat</item>
+        <item>Seat</item>
+        <item>Seat</item>
+        <item>Seat</item>
+        <item>Seat</item>
+        <item>Ford</item>
+        <item>Ford</item>
+        <item>Ford</item>
+        <item>Ford</item>
+        <item>Ford</item>
+    </string-array>
+
+    <string-array name="car_model_array">
+        <item>Jazz</item>
+        <item>Civic</item>
+        <item>Accord</item>
+        <item>Fit</item>
+        <item>Ibiza</item>
+        <item>Toledo</item>
+        <item>Ibiza</item>
+        <item>Ibiza</item>
+        <item>Toledo</item>
+        <item>Focus</item>
+        <item>Focus</item>
+        <item>Edge</item>
+        <item>Fiesta</item>
+        <item>Kuga</item>
+    </string-array>
+
+    <string-array name="car_year_array">
+        <item>2023</item>
+        <item>2022</item>
+        <item>2021</item>
+        <item>2019</item>
+        <item>2010</item>
+        <item>2015</item>
+        <item>2014</item>
+        <item>2018</item>
+        <item>2018</item>
+        <item>2012</item>
+        <item>2014</item>
+        <item>2020</item>
+        <item>2014</item>
+        <item>2019</item>
+    </string-array>
+
+    <string-array name="car_price_array">
+        <item>23222</item>
+        <item>32123</item>
+        <item>54321</item>
+        <item>14223</item>
+        <item>16554</item>
+        <item>17432</item>
+        <item>17332</item>
+        <item>19459</item>
+        <item>20887</item>
+        <item>15234</item>
+        <item>17592</item>
+        <item>19786</item>
+        <item>20123</item>
+        <item>15342</item>
+    </string-array>
+
+    <string-array name="bike_brand_array">
+        <item>Honda</item>
+        <item>Honda</item>
+        <item>Honda</item>
+    </string-array>
+
+    <string-array name="bike_model_array">
+        <item>Fury</item>
+        <item>CBR600RR</item>
+        <item>CB1000R</item>
+    </string-array>
+
+    <string-array name="bike_year_array">
+        <item>2018</item>
+        <item>2020</item>
+        <item>2021</item>
+    </string-array>
+
+    <string-array name="bike_price_array">
+        <item>16885</item>
+        <item>17886</item>
+        <item>21445</item>
+    </string-array>
+
+    <string-array name="others_name_array">
+        <item>Anti-Glare Glasses</item>
+        <item>WD40</item>
+        <item>Anti-Freeze</item>
+        <item>Air Freshener</item>
+        <item>FM Transmitter</item>
+        <item>Dash Cam with Rear Cam</item>
+        <item>Dash Cam</item>
+        <item>Radio with CD Drive</item>
+        <item>Radio with LCD Display</item>
+    </string-array>
+
+    <string-array name="others_price_array">
+        <item>12</item>
+        <item>8</item>
+        <item>10</item>
+        <item>5</item>
+        <item>40</item>
+        <item>400</item>
+        <item>200</item>
+        <item>400</item>
+        <item>500</item>
+    </string-array>
+
+</resources>

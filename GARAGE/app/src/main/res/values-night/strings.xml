@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fabHome">Home</string>
+    <string name="fabYT_Description">Open reviews for current product in Youtube</string>
+    <string name="fabHome_Description">Go back to the App Home Screen</string>
+    <string name="Description_fabDialer">Call the garage phone number</string>
+    <string name="menu_fav"><![CDATA[Add Item to Favourites/> </menu>]]></string>
+    <string name="Description_ItemImage">Larger photo of selected product</string>
+</resources>

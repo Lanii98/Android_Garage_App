@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blueBlack"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtGreet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="14dp"
+        android:fontFamily="@font/lexend"
+        android:text="@string/welcome_message"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="64sp"
+        app:layout_constraintBottom_toTopOf="@+id/txtChoose"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/rdbGroup"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="44dp"
+        android:textAlignment="center"
+        app:layout_constraintCircleRadius="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtChoose">
+
+        <RadioButton
+            android:id="@+id/rdbCars"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lexend"
+            android:text="@string/cars"
+            android:textColor="@color/accent"
+            android:textSize="23sp"/>
+
+        <RadioButton
+            android:id="@+id/rdbBikes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lexend"
+            android:text="@string/bikes"
+            android:textColor="@color/accent"
+            android:textSize="23sp" />
+
+        <RadioButton
+            android:id="@+id/rdbOthers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lexend"
+            android:text="@string/others"
+            android:textColor="@color/accent"
+            android:textSize="23sp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="94dp"
+        android:fontFamily="@font/lexend"
+        android:text="@string/start"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/rdbGroup"
+        app:layout_constraintTop_toBottomOf="@+id/rdbGroup" />
+
+    <TextView
+        android:id="@+id/txtChoose"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:fontFamily="@font/lexend"
+        android:text="@string/category_option"
+        android:textAlignment="center"
+        android:textColor="#689F38"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/rdbGroup"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtGreet" />
+</androidx.constraintlayout.widget.ConstraintLayout>
